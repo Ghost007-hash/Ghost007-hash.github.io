@@ -1,0 +1,284 @@
+body {
+    background-color: #010101ed; 
+    color: #fff;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    margin: 50px auto;
+    max-width: 1400px;
+    font-size: 18px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    /* background-image: url('./dynamic_chart.gif'); */
+    background-image: url('./image/header_background.jpg');
+}
+header .header_container {
+    margin: 0 auto;
+    width: 50%;
+}
+header .header_container .header_img {
+    width: 35%;
+    height: 15%;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+header .header_container h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+header .header_container p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+}
+.main_page {
+    margin: 30px 0;
+}
+.main_page .tab_block {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+.main_page .tab_block .about_myself {
+    background-image: url('./image/about_background.jpg');
+    width: 350px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.main_page .tab_block .about_myself span {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 25px;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 100%;
+    text-transform: uppercase;
+}
+.main_page .tab_block .about_statistic {
+    background-image: url('./image/statistic.avif');
+    width: 350px;
+    height: 500px;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.main_page .tab_block .about_statistic span {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 25px;
+    justify-content: end;
+    font-weight: 500;
+    margin-top: 50%;
+    margin-right: 10%;
+    text-transform: uppercase;
+}
+.main_page .tab_block .about_presentation {
+    background-image: url('./image/presentation_background.avif');
+    width: 350px;
+    height: 500px;
+    border-radius: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+ .tab_block .about_presentation span {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 25px;
+    justify-content: end;
+    font-weight: 500;
+    margin-top: 80%;
+    margin-right: 10%;
+    text-transform: uppercase;
+}
+.main_page .horiz_line {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+.main_page .about_block {
+    margin: 0 auto;
+    width: 95%;
+}
+.main_page .about_block .about_me p{
+    margin: 20px auto;
+    line-height: 1.5;
+    font-weight: 200;
+}
+.main_page .about_block .container_presonal_info {
+    display: grid;
+    width: 90%;
+    margin: 30px auto;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.main_page .about_block .container_presonal_info .contact_info {
+    display: flex;
+    flex-direction: column;
+    gap: 25%;
+    margin: 25px 0;
+}
+.main_page .about_block .container_presonal_info .contact_info a {
+    color: #fff;
+    text-decoration: none;
+}
+.main_page .about_block .container_presonal_info .contact_info #icon {
+    margin: 0 5px;
+}
+.main_page .about_block .education h2{
+    font-weight: 600;
+}
+.main_page .about_block .education .degree h3 {
+    font-weight: 500;
+}
+.main_page .about_block .expertise h2 {
+    font-weight: 600;
+}
+.main_page .about_block .expertise .expertise_container p {
+    font-weight: 400;
+}
+.main_page .about_block .language h2 {
+    font-weight: 600;
+}
+.main_page .about_block .expertise .language_container p {
+    font-weight: 400;
+}
+.main_page .about_block .container_work_expirience {
+    width: 90%;
+    margin: 30px auto;
+}
+.main_page .about_block .container_work_expirience h1 {
+    text-align: center;
+}
+.main_page .about_block .container_work_expirience .work_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.main_page .about_block .container_work_expirience .work_block .work_experience_block .title {
+    font-weight: 600;
+}
+.main_page .about_block .container_work_expirience .work_block .work_experience_block .position {
+    font-weight: 500;
+}
+.main_page .about_block .container_work_expirience .work_block .work_experience_block .responsibilities {
+    font-weight: 300;
+}
+.main_page .about_block .container_work_expirience .work_block .work_experience_block .time {
+    font-weight: 300;
+}
+.statistic_block li {
+    line-height: 1.6;
+    font-weight: 300;
+}
+.presentation_block {
+    width: 90%;
+    margin: 0 auto;
+}
+.presentation_block h1{
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.presentation_block .paragraph_one .image {
+    float: left; 
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 600px;
+}
+.presentation_block .paragraph_one span{
+    font-size: 18px;
+    line-height: 1.8;
+}
+.presentation_block .slider {
+    width: 100%;
+    height: 100%;
+}
+.presentation_block .slider .swiper {
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.presentation_block .slider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50% !important;
+}
+
+.presentation_block .slider .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.presentation_block .team {
+    width: 100%;
+    margin: 30px 0;
+}
+.presentation_block .team h2 {
+    text-align: center;
+    font-weight: 500;
+}
+.presentation_block .team .teammate_block {
+    display: flex;
+    justify-content: space-around;
+}
+.presentation_block .team .teammate_block .teammate {
+    display: flex;
+    flex-direction: column;
+}
+.presentation_block .team .teammate_block .teammate_one .photo {
+    width: 300px;
+    height: 300px;
+    background-image: url('./image/portfolio_photo.jpg');
+    background-size: cover;
+    border-radius: 15px;
+    
+}
+.presentation_block .team .teammate_block .teammate_one h3 {
+    text-align: center;
+    font-weight: 400;
+}
+.presentation_block .team .teammate_block .teammate_two .photo {
+    width: 300px;
+    height: 300px;
+    background-image: url('./image/pres8.jpg');
+    background-size: cover;
+    border-radius: 15px;
+    
+}
+.presentation_block .team .teammate_block .teammate_two h3 {
+    text-align: center;
+    font-weight: 400;
+}
+.presentation_block .team .teammate_block .teammate_three .photo {
+    width: 300px;
+    height: 300px;
+    background-image: url('./image/about_background.jpg');
+    background-size: cover;
+    border-radius: 15px;
+    
+}
+.presentation_block .team .teammate_block .teammate_three h3 {
+    text-align: center;
+    font-weight: 400;
+}
