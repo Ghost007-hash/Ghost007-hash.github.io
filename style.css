@@ -102,6 +102,7 @@ header .header_container p {
     margin-right: 10%;
     text-transform: uppercase;
 }
+
 .main_page .tab_block .about_presentation {
     background-image: url('./image/presentation_background.avif');
     width: 350px;
