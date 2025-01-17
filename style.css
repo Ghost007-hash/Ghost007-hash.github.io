@@ -53,7 +53,16 @@ header .header_container p {
     background-size: cover;
     border-radius: 10%;
     cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.main_page .tab_block .about_myself:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.main_page .tab_block .about_myself:active {
+    transform: scale(0.95) rotateX(15deg) rotateY(-10deg); /* 3D-ефект при натисканні */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
 .main_page .tab_block .about_myself span {
     align-items: center;
     display: flex;
@@ -72,7 +81,16 @@ header .header_container p {
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.main_page .tab_block .about_statistic:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.main_page .tab_block .about_statistic:active {
+    transform: scale(0.95) rotateX(15deg) rotateY(-10deg); /* 3D-ефект при натисканні */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
 .main_page .tab_block .about_statistic span {
     align-items: center;
     display: flex;
@@ -92,7 +110,16 @@ header .header_container p {
     background-repeat: no-repeat;
     background-size: cover;
     cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.main_page .tab_block .about_presentation:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.main_page .tab_block .about_presentation:active {
+    transform: scale(0.95) rotateX(15deg) rotateY(-10deg);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
  .tab_block .about_presentation span {
     align-items: center;
     display: flex;
