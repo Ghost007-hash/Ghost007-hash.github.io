@@ -293,6 +293,7 @@ header .header_container p {
     background-image: url('./image/teammate_photo_two.jpg');
     background-size: cover;
     border-radius: 15px;
+    background-position: bottom;
     
 }
 .presentation_block .team .teammate_block .teammate_two h3 {
@@ -305,6 +306,7 @@ header .header_container p {
     background-image: url('./image/about_background.jpg');
     background-size: cover;
     border-radius: 15px;
+    background-position: center;
     
 }
 .presentation_block .team .teammate_block .teammate_three h3 {
